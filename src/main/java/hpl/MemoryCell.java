@@ -6,4 +6,5 @@ public interface MemoryCell
 	void pointLeft ();
 	void pointUp ();
 	void pointDown ();
+	void print (Output output);
 }
