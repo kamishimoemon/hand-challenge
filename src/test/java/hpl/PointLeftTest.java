@@ -12,6 +12,6 @@ public class PointLeftTest
 
 		new PointLeft().run(cell);
 
-		verify(cell).pointLeft();
+		verify(cell).previous();
 	}
 }

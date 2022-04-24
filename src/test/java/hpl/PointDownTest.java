@@ -12,6 +12,6 @@ public class PointDownTest
 
 		new PointDown().run(cell);
 
-		verify(cell).pointDown();
+		verify(cell).decrement();
 	}
 }

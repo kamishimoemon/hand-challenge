@@ -2,9 +2,9 @@ package hpl;
 
 public interface MemoryCell
 {
-	void pointRight ();
-	void pointLeft ();
-	void pointUp ();
-	void pointDown ();
+	void next ();
+	void previous ();
+	void increment ();
+	void decrement ();
 	void print (Output output);
 }

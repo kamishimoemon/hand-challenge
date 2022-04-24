@@ -4,6 +4,6 @@ public class PointUp
 {
 	public void run (MemoryCell cell)
 	{
-		cell.pointUp();
+		cell.increment();
 	}
 }

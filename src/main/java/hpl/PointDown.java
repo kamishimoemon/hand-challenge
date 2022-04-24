@@ -4,6 +4,6 @@ public class PointDown
 {
 	public void run (MemoryCell cell)
 	{
-		cell.pointDown();
+		cell.decrement();
 	}
 }

@@ -12,6 +12,6 @@ public class PointRightTest
 
 		new PointRight().run(cell);
 
-		verify(cell).pointRight();
+		verify(cell).next();
 	}
 }

@@ -12,6 +12,6 @@ public class PointUpTest
 
 		new PointUp().run(cell);
 
-		verify(cell).pointUp();
+		verify(cell).increment();
 	}
 }

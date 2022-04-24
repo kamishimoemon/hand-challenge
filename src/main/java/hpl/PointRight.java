@@ -4,6 +4,6 @@ public class PointRight
 {
 	public void run (MemoryCell cell)
 	{
-		cell.pointRight();
+		cell.next();
 	}
 }
