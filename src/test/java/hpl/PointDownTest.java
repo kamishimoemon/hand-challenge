@@ -9,8 +9,9 @@ public class PointDownTest
 	public void shouldInvokePointDownMethodOnMeMoryCell ()
 	{
 		MemoryCell cell = mock(MemoryCell.class);
+		Output output = mock(Output.class);
 
-		new PointDown().run(cell);
+		new PointDown().run(cell, output);
 
 		verify(cell).decrement();
 	}

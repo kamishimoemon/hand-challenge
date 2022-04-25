@@ -2,9 +2,10 @@ package hpl;
 
 public interface MemoryCell
 {
-	void next ();
-	void previous ();
+	MemoryCell next ();
+	MemoryCell previous ();
 	void increment ();
 	void decrement ();
+	boolean isZero ();
 	void print (Output output);
 }

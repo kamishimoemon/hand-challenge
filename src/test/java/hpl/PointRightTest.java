@@ -9,8 +9,9 @@ public class PointRightTest
 	public void shouldInvokePointRightMethodOnMeMoryCell ()
 	{
 		MemoryCell cell = mock(MemoryCell.class);
+		Output output = mock(Output.class);
 
-		new PointRight().run(cell);
+		new PointRight().run(cell, output);
 
 		verify(cell).next();
 	}

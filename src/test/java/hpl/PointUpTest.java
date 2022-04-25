@@ -9,8 +9,9 @@ public class PointUpTest
 	public void shouldInvokePointUpMethodOnMeMoryCell ()
 	{
 		MemoryCell cell = mock(MemoryCell.class);
+		Output output = mock(Output.class);
 
-		new PointUp().run(cell);
+		new PointUp().run(cell, output);
 
 		verify(cell).increment();
 	}

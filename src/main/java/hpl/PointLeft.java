@@ -1,8 +1,10 @@
 package hpl;
 
 public class PointLeft
+	implements Operator
 {
-	public void run (MemoryCell cell)
+	@Override
+	public void run (MemoryCell cell, Output output)
 	{
 		cell.previous();
 	}

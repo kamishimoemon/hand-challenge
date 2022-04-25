@@ -1,8 +1,10 @@
 package hpl;
 
 public class PointUp
+	implements Operator
 {
-	public void run (MemoryCell cell)
+	@Override
+	public void run (MemoryCell cell, Output output)
 	{
 		cell.increment();
 	}
